@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NaLa Conversation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="title-col">
+          <h1>NaLa Conversation</h1>
+          <p>By Lucas Padilha</p>
+        </div>
+        <select id="languageSelect">
+          <option value="en-US">English</option>
+          <option value="pt-PT">Português</option>
+          <option value="it-IT">Italiano</option>
+        </select>    
+      </div>
+      <div class="conversation">
+        <textarea id="conversation" rows="10"></textarea>
+        <div class="controls">
+          <button id="voiceRecognitionBtn" class="btn">
+            <i class="fa fa-microphone"></i>
+            Start Conversation
+          </button>
+          <button id="speechOutputBtn" class="btn">
+            <i class="fa fa-volume-up"></i>
+            Speech Output
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
