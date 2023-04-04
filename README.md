@@ -15,4 +15,4 @@ To use this project, simply clone the repository to your local machine:
 
 ## Usage
 
-To use this project, run yarn to install the necessary dependencies and then run yarn start to start the application. By default, both buttons are enabled and the language is set to English. To start a conversation with NaLa, click on the "Voice Recognition" button and ask a question. NaLa's response will be displayed in the text-box and spoken out loud. To listen to the entire conversation, click on the "Speech Output" button. To change the language for voice recognition, select a different language from the language selector.
+To use this project, you should just open the index.html file on your browser. By default, both buttons are enabled and the language is set to English. To start a conversation with NaLa, click on the "Start Conversation" button and ask a question. NaLa's response will be displayed in the text-box and spoken out loud. To listen to the entire conversation, click on the "Speech Output" button. To change the language for voice recognition, select a different language from the language selector.
